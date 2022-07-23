@@ -1,0 +1,48 @@
+
+
+@import 'libs/bootstrap-reboot.min';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+@import 'base/mixins';
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 1786px;
+    margin: 0 auto;
+}
+.page {
+    &-line {
+
+    }
+    &-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    &-title {
+        font-weight: 700;
+        font-size: 46px;
+        line-height: 56px;
+        color: #2D2D2D;
+    }
+    &-descr {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 0.7em;
+        color: #474747;
+        margin-bottom: 27px;
+    }
+}
+@import 'blocks/header';
+@import 'blocks/hunders';
+@import 'blocks/about';
+@import 'blocks/beauties';

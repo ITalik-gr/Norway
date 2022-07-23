@@ -1,0 +1,54 @@
+.about {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  &-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 120px;
+  }
+  &-image {
+    margin-right: 93px;
+    img {
+      max-width: 872px;
+    }
+  }
+  &-text {
+    
+  }
+  &-card {
+    margin-bottom: 70px;
+    display: flex;
+    &:last-child {
+      margin-bottom: 0;
+    }
+    &__num {
+      font-weight: 500;
+      font-size: 26px;
+      line-height: 32px;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      color: #9B9B9B;
+      margin-right: 45px;
+    }
+    &__text {
+
+    }
+    &__title {
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 39px;
+      text-transform: capitalize;
+      color: #3D3D3D;
+      margin-bottom: 20px;
+    }
+    &__descr {
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 30px;
+      color: #6D6D6D;
+      max-width: 441px;
+    }
+  }
+}
